@@ -1,0 +1,44 @@
+{
+  "name": "spring-boot-snippets",
+  "displayName": "Essential Spring Boot Snippets",
+  "description": "High quality Code Snippets that boost your Spring Boot development productivity.",
+  "version": "0.1.0",
+  "publisher": "doggy8088",
+  "icon": "icon.png",
+  "preview": true,
+  "repository": "https://github.com/doggy8088/spring-boot-snippets",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "spring-boot",
+    "java",
+    "code-snippets"
+  ],
+  "categories": [
+    "Extension Packs",
+    "Snippets"
+  ],
+  "extensionPack": [
+    "vscjava.vscode-java-pack",
+
+    "pivotal.vscode-spring-boot",
+    "vscjava.vscode-spring-initializr",
+    "vscjava.vscode-spring-boot-dashboard",
+
+    "GabrielBB.vscode-lombok"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "java",
+        "path": "./snippets/java.json"
+      },
+      {
+        "language": "editorconfig",
+        "path": "./snippets/editorconfig.json"
+      }
+    ]
+  }
+}

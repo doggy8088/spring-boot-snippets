@@ -1,0 +1,25 @@
+{
+	".editorconfig for Java": {
+		"prefix": "java",
+		"body": [
+			"$0root = true",
+			"",
+			"[*]",
+			"indent_style = space",
+			"indent_size = 2",
+			"charset = utf-8",
+			"end_of_line = lf",
+			"trim_trailing_whitespace = true",
+			"insert_final_newline = true",
+			"",
+			"[*.java]",
+			"indent_size = 4",
+			"continuation_indent_size = 8",
+			"",
+			"[*.md]",
+			"insert_final_newline = false",
+			"trim_trailing_whitespace = false"
+		],
+		"description": ".editorconfig for Java"
+	}
+}

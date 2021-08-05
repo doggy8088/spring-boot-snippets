@@ -1,0 +1,192 @@
+{
+	"Generate RestController": {
+		"prefix": "api-controller",
+		"body": [
+			"import org.springframework.web.bind.annotation.*;",
+			"import org.springframework.http.ResponseEntity;",
+			"import org.springframework.http.HttpStatus;",
+			"",
+			"import java.net.URI;",
+			"import java.util.ArrayList;",
+			"import java.util.List;",
+			"import java.util.Optional;",
+			"",
+			"import javax.validation.Valid;",
+			"",
+			"/**",
+			" * ${TM_FILENAME_BASE}",
+			" */",
+			"@RestController",
+			"@RequestMapping(\"/api/${1:${TM_FILENAME_BASE/Controller//}}\")",
+			"public class ${TM_FILENAME_BASE} {",
+			"    public ${TM_FILENAME_BASE}() {",
+			"    }",
+			"    ",
+			"    $0",
+			"}"
+		],
+		"description": "Generate RestController"
+	},
+	"Generate GET action for all items": {
+		"prefix": [
+			"api-get-all"
+		],
+		"body": [
+			"@GetMapping",
+			"public ResponseEntity<List<${1}>> getAll${1:${TM_FILENAME_BASE/Controller//}}() {",
+			"    try {",
+			"        List<${1}> items = new ArrayList<${1}>();",
+			"",
+			"        $0// repository.findAll().forEach(items::add);",
+			"",
+			"        return ResponseEntity.ok(items);",
+			"    } catch (Exception e) {",
+			"        return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);",
+			"    }",
+			"}",
+			""
+		],
+		"description": "Spring Boot Controller GET action for all items"
+	},
+	"Generate GET action for one item": {
+		"prefix": [
+			"api-get-by-id"
+		],
+		"body": [
+			"@GetMapping(\"{id}\")",
+			"public ResponseEntity<${1}> get${1:${TM_FILENAME_BASE/Controller//}}ById(@PathVariable(\"id\") int id) {",
+			"    Optional<${1}> item = ${2:Optional.empty()}$0;",
+			"",
+			"    if (item.isPresent()) {",
+			"        return ResponseEntity.ok(item.get());",
+			"    } else {",
+			"        return new ResponseEntity<>(HttpStatus.NOT_FOUND);",
+			"    }",
+			"}",
+			""
+		],
+		"description": "Spring Boot Controller GET action for one item"
+	},
+	"Generate GET action for RequestParam": {
+		"prefix": "api-get-query",
+		"body": [
+			"@GetMapping(\"${1}\")",
+			"public ResponseEntity<List<${4:entityClassName}>> get${1:ActionName}(@RequestParam int ${3:keyword}) {",
+			"    try {",
+			"        List<${4}> items = new ArrayList<${4}>();",
+			"",
+			"        $0// repository.findByKeyword(${3}).forEach(items::add);",
+			"",
+			"        return ResponseEntity.ok(items);",
+			"    } catch (Exception e) {",
+			"        return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);",
+			"    }",
+			"}"
+		],
+		"description": "Spring Boot Controller GET action with RequestParam"
+	},
+	"Generate POST action": {
+		"prefix": [
+			"api-post"
+		],
+		"body": [
+			"@PostMapping(\"\")",
+			"public ResponseEntity<${1}> create${1:${TM_FILENAME_BASE/Controller//}}(@Valid @RequestBody ${2:${1}Dto} ${3:item}) {",
+			"    try {",
+			"        ${1} createdItem = new ${1}();",
+			"        ${4:// TODO: Create item here}$0",
+			"        $0",
+			"        URI createdUri = URI.create(\"/api/${TM_FILENAME_BASE/Controller//}/999\");",
+			"        return ResponseEntity.created(createdUri).body(createdItem);",
+			"    } catch (Exception e) {",
+			"        return new ResponseEntity<>(null, HttpStatus.EXPECTATION_FAILED);",
+			"    }",
+			"}",
+			""
+		],
+		"description": "Spring Boot Controller POST action"
+	},
+	"Generate PUT action": {
+		"prefix": [
+			"api-put"
+		],
+		"body": [
+			"@PostMapping(\"{id}\")",
+			"public ResponseEntity<${1}> update${1:${TM_FILENAME_BASE/Controller//}}(@PathVariable(\"id\") int id, @Valid @RequestBody ${2:${1}Dto} ${3:item}) {",
+			"    try {",
+			"        Optional<${1:entityClassName}> existingItem = ${4:Optional.empty()}; // TODO: Get item here",
+			"",
+			"        if (existingItem.isPresent()) {",
+			"            ${1} currentItem = existingItem.get();",
+			"            ${5:// TODO: Update item here}$0",
+			"            ${1} updatedItem = currentItem;",
+			"            return ResponseEntity.ok(updatedItem);",
+			"        } else {",
+			"            return new ResponseEntity<>(HttpStatus.NOT_FOUND);",
+			"        }",
+			"    } catch (Exception e) {",
+			"        return new ResponseEntity<>(null, HttpStatus.EXPECTATION_FAILED);",
+			"    }",
+			"}",
+			""
+		],
+		"description": "Spring Boot Controller PUT action"
+	},
+	"Generate DELETE action": {
+		"prefix": [
+			"api-delete"
+		],
+		"body": [
+			"@PostMapping(\"{id}\")",
+			"public ResponseEntity<${1}> delete${1:${TM_FILENAME_BASE/Controller//}}(@PathVariable(\"id\") int id) {",
+			"    try {",
+			"        Optional<${1:entityClassName}> existingItem = ${2:Optional.empty()}; // TODO: Get item here",
+			"",
+			"        if (existingItem.isPresent()) {",
+			"            ${1} currentItem = existingItem.get();",
+			"            ${3:// TODO: Delete item here}$0",
+			"            return ResponseEntity.ok(currentItem);",
+			"        } else {",
+			"            return new ResponseEntity<>(HttpStatus.NOT_FOUND);",
+			"        }",
+			"    } catch (Exception e) {",
+			"        return new ResponseEntity<>(null, HttpStatus.EXPECTATION_FAILED);",
+			"    }",
+			"}",
+			""
+		],
+		"description": "Spring Boot Controller DELETE action"
+	},
+	"Generate DTO class for an API action": {
+		"prefix": "api-dto",
+		"body": [
+			"import javax.validation.constraints.*;",
+			"",
+			"import lombok.Data;",
+			"",
+			"@Data",
+			"public class ${TM_FILENAME_BASE} {",
+			"",
+			"    @NotNull(message = \"不允許為空值\")",
+			"    @Max(value = 9, message = \"請輸入小於 9 的數值\")",
+			"    @Min(value = 0, message = \"請輸入大於 0 的數值\")",
+			"    public int id;",
+			"    ",
+			"    @NotBlank(message = \"不允許空白的內容\")",
+			"    @NotEmpty(message = \"可允許空白的內容\")",
+			"    @NotNull(message = \"不允許為空值\")",
+			"    @Size(min = 3, max = 10, message = \"請輸入字串長度從 3 到 10 的文字內容\")",
+			"    @Email(message = \"請輸入合法的 E-mail 地址\")",
+			"    public String name;",
+			"    ",
+			"    @AssertTrue",
+			"    public boolean isModelValid() {",
+			"        return true;",
+			"    }",
+			"    ",
+			"}",
+			""
+		],
+		"description": "Generate DTO class for an API action"
+	}
+}
