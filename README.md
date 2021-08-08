@@ -6,9 +6,9 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 
 ## Features
 
-* Provide Controller snippets
-* Provide DTO snippets with Lombok annotations
-* Bundled with some must needed VSCode extensions
+- Provide Controller snippets
+- Provide DTO snippets with Lombok annotations
+- Bundled with some must needed VSCode extensions
 
 ## Code Snippets
 
@@ -30,6 +30,25 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 | Prefix | Description                                |
 | ------ | ------------------------------------------ |
 | `java` | Generates `.editorconfig` for Java project |
+
+## Extensions
+
+This extension bundled with some must needed VSCode extensions for Java Spring Boot developments.
+
+- [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+  - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+  - [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
+  - [Java Test Runner](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
+  - [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+  - [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
+  - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [Spring Initializr Java Support](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr)
+- [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard)
+- [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=pivotal.vscode-spring-boot)
+- [Lombok Annotations Support for VS Code](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
+- [Dependency Analytics](https://marketplace.visualstudio.com/items?itemName=redhat.fabric8-analytics)
+- [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ## Contributing
 
