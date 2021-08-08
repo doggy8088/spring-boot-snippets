@@ -8,6 +8,7 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 
 * Provide Controller snippets
 * Provide DTO snippets with Lombok annotations
+* Bundled with some must needed VSCode extensions
 
 ## Code Snippets
 
@@ -20,7 +21,7 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 | `api-get-by-id`  | Spring Boot Controller GET action for one item      |
 | `api-get-query`  | Spring Boot Controller GET action with RequestParam |
 | `api-post`       | Spring Boot Controller POST action                  |
-| `api-put`        | Spring Boot Controller PU action                    |
+| `api-put`        | Spring Boot Controller PUT action                   |
 | `api-delete`     | Spring Boot Controller DELETE action                |
 | `api-dto`        | Generate DTO class for an API action                |
 
