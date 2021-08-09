@@ -33,7 +33,7 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 
 ## Extensions
 
-This extension bundled with some must needed VSCode extensions for Java Spring Boot developments.
+This extension bundled with some MUST needed VSCode extensions for Java Spring Boot developments.
 
 - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
   - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
@@ -49,6 +49,36 @@ This extension bundled with some must needed VSCode extensions for Java Spring B
 - [Dependency Analytics](https://marketplace.visualstudio.com/items?itemName=redhat.fabric8-analytics)
 - [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+
+I also recommend the following extensions you MIGHT need.
+
+- [Checkstyle for Java](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle)
+
+    Provide real-time feedback about Checkstyle violations and quick fix actions
+
+- [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+
+    SonarLint helps you detect and fix quality issues as you write code in Java.
+
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+
+    Show TODO, FIXME, etc. comment tags in a tree view
+
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+
+    REST Client for Visual Studio Code
+
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+    View git log, file history, compare branches or commits
+
+- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+
+    Language support for `.gitignore` files.
+
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+    Supercharge the Git capabilities built into Visual Studio Code
 
 ## Contributing
 

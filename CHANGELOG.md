@@ -2,6 +2,10 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.2.2 - 2021-08-09
+
+* Update `README.md` (Add some recommended extensions.)
+
 ## 0.2.1 - 2021-08-08
 
 * Add [Dependency Analytics](https://marketplace.visualstudio.com/items?itemName=redhat.fabric8-analytics) extension
