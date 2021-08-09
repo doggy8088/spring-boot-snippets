@@ -80,6 +80,52 @@ I also recommend the following extensions you MIGHT need.
 
     Supercharge the Git capabilities built into Visual Studio Code
 
+## Recommended VSCode User Settings
+
+- `settings.json`
+
+    ```json
+    {
+        "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+        "spring-boot.ls.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+        "java.debug.settings.hotCodeReplace": "auto",
+        "java.configuration.runtimes": [
+            {
+                "name": "JavaSE-1.8",
+                "path": "/usr/lib/jvm/java-8-openjdk-amd64/",
+                "sources": "/usr/lib/jvm/java-8-openjdk-amd64/src.zip",
+                "default": true
+            },
+            {
+                "name": "JavaSE-11",
+                "path": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "sources": "/usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip",
+                "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
+            }
+        ]
+    }
+    ```
+
+- `.vscode/launch.json`
+
+    ```json
+    {
+        "configurations": [
+            {
+                "type": "java",
+                "request": "launch",
+                "name": "Launch Spring Boot",
+                "mainClass": "${workspaceFolder}/src/main/java/com/example/demo1/Demo1Application.java",
+                "envFile": "${workspaceFolder}/.env"
+            }
+        ]
+    }
+    ```
+
+    > Remember change `mainClass` to your class that contains **main()** method.
+
+    > [Issue #140: How to read .env file when start spring boot app?](https://github.com/microsoft/vscode-spring-boot-dashboard/issues/140)
+
 ## Contributing
 
 If you need any Java / Spring Boot snippets, please feel free to send PRs to me or simply [drop me a note](https://github.com/doggy8088/spring-boot-snippets/issues)! 😊
