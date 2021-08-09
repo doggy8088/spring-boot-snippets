@@ -56,6 +56,10 @@ I also recommend the following extensions you MIGHT need.
 
     Provide real-time feedback about Checkstyle violations and quick fix actions
 
+- [Tomcat for Java](https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat)
+
+    Debug or run your java war package in Apache Tomcat.
+
 - [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 
     SonarLint helps you detect and fix quality issues as you write code in Java.

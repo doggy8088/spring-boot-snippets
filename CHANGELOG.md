@@ -2,7 +2,7 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
-## 0.2.3 - 2021-08-10
+## 0.2.5 - 2021-08-10
 
 * Update `README.md` (Add **Recommended VSCode User Settings** section)
 * Add `icon.png` for this extension.
