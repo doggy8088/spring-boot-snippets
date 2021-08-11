@@ -60,61 +60,70 @@ This extension bundled with some MUST needed VSCode extensions for Java Spring B
 
 I also recommend the following extensions you MIGHT need.
 
-- [Checkstyle for Java](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle)
+- Code Quality
 
-    Provide real-time feedback about Checkstyle violations and quick fix actions
+  - [Checkstyle for Java](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle)
 
-- [Tomcat for Java](https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat)
+      Provide real-time feedback about Checkstyle violations and quick fix actions
 
-    Debug or run your java war package in Apache Tomcat.
+  - [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 
-- [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)
+      SonarLint helps you detect and fix quality issues as you write code in Java.
 
-    Add Gradle language support for Visual Studio Code
+- Java Tools
 
-- [Gradle Tasks](https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle)
+  - [Tomcat for Java](https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat)
 
-    Run Gradle tasks in VS Code
+      Debug or run your java war package in Apache Tomcat.
 
-- [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+  - [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)
 
-    SonarLint helps you detect and fix quality issues as you write code in Java.
+      Add Gradle language support for Visual Studio Code
 
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+  - [Gradle Tasks](https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle)
 
-    Show TODO, FIXME, etc. comment tags in a tree view
+      Run Gradle tasks in VS Code
 
-- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- Workbench
 
-    REST Client for Visual Studio Code
+  - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+      Show TODO, FIXME, etc. comment tags in a tree view
 
-    Makes it easy to create, manage, and debug containerized applications.
+  - [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
 
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+      Syntax highlighting for log files
 
-    View git log, file history, compare branches or commits
+  - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+      Material Design Icons for Visual Studio Code
 
-    Language support for `.gitignore` files.
+- Testing
 
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
-    Supercharge the Git capabilities built into Visual Studio Code
+      REST Client for Visual Studio Code
 
-- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- Containerization
 
-    Pull Request and Issue Provider for GitHub
+  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-- [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+      Makes it easy to create, manage, and debug containerized applications.
 
-    Syntax highlighting for log files
+- Git Version Control
 
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+  - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
-    Material Design Icons for Visual Studio Code
+      View a Git Graph of your repository, and perform Git actions from the graph.
+
+  - [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+
+      Language support for `.gitignore` files.
+
+  - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+      Supercharge the Git capabilities built into Visual Studio Code
+
 
 ## Recommended VSCode User Settings
 
