@@ -2,6 +2,13 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.4.0 - 2021-08-12
+
+* Add JSON/JSONC snippets for VSCode User Settings (`java` or `spring-boot`)
+* Update `README.md`
+  * Add [spring-boot-starter-validation](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation) dependencies hints
+  * Add more recommended extensions
+
 ## 0.3.0 - 2021-08-11
 
 * Add [Java Decompiler](https://marketplace.visualstudio.com/items?itemName=dgileadi.java-decompiler) extension

@@ -6,8 +6,8 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 
 ## Features
 
-- Provide Controller snippets
-- Provide DTO snippets with Lombok annotations
+- Provide Controller, EditorConfig and VSCode User Settings snippets
+- Provide DTO snippets with [Lombok](https://projectlombok.org/) & [spring-boot-starter-validation](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation) dependency
 - Bundled with some must needed VSCode extensions
 
 ## Code Snippets
@@ -30,6 +30,13 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 | Prefix | Description                                |
 | ------ | ------------------------------------------ |
 | `java` | Generates `.editorconfig` for Java project |
+
+### VSCode User Settings (`.json`)
+
+| Prefix        | Description                                                    |
+| ------------- | -------------------------------------------------------------- |
+| `java`        | Generates VSCode User Settings for Java & Spring Boot projects |
+| `spring-boot` | Generates VSCode User Settings for Java & Spring Boot projects |
 
 ## Extensions
 
@@ -61,6 +68,14 @@ I also recommend the following extensions you MIGHT need.
 
     Debug or run your java war package in Apache Tomcat.
 
+- [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)
+
+    Add Gradle language support for Visual Studio Code
+
+- [Gradle Tasks](https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle)
+
+    Run Gradle tasks in VS Code
+
 - [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 
     SonarLint helps you detect and fix quality issues as you write code in Java.
@@ -72,6 +87,10 @@ I also recommend the following extensions you MIGHT need.
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
     REST Client for Visual Studio Code
+
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
+    Makes it easy to create, manage, and debug containerized applications.
 
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
@@ -85,6 +104,18 @@ I also recommend the following extensions you MIGHT need.
 
     Supercharge the Git capabilities built into Visual Studio Code
 
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
+    Pull Request and Issue Provider for GitHub
+
+- [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+
+    Syntax highlighting for log files
+
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+    Material Design Icons for Visual Studio Code
+
 ## Recommended VSCode User Settings
 
 - `settings.json`
@@ -92,7 +123,6 @@ I also recommend the following extensions you MIGHT need.
     ```json
     {
         "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
-        "spring-boot.ls.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
         "java.debug.settings.hotCodeReplace": "auto",
         "java.configuration.runtimes": [
             {
@@ -107,7 +137,9 @@ I also recommend the following extensions you MIGHT need.
                 "sources": "/usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip",
                 "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
             }
-        ]
+        ],
+        "spring-boot.ls.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+        "editor.foldingImportsByDefault": true
     }
     ```
 

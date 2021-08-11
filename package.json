@@ -2,7 +2,7 @@
   "name": "spring-boot-snippets",
   "displayName": "Essential Spring Boot Snippets",
   "description": "High quality Code Snippets that boost your Spring Boot development productivity.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "doggy8088",
   "icon": "icon.png",
   "preview": true,
@@ -42,6 +42,14 @@
       {
         "language": "editorconfig",
         "path": "./snippets/editorconfig.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      },
+      {
+        "language": "jsonc",
+        "path": "./snippets/json.json"
       }
     ]
   }

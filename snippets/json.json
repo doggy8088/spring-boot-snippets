@@ -1,0 +1,29 @@
+{
+	"Spring Boot user settings": {
+		"prefix": [
+			"java",
+			"spring-boot"
+		],
+		"body": [
+			"\"java.home\": \"/usr/lib/jvm/java-11-openjdk-amd64\",",
+			"\"java.debug.settings.hotCodeReplace\": \"auto\",",
+			"\"java.configuration.runtimes\": [",
+			"    {",
+			"        \"name\": \"JavaSE-1.8\",",
+			"        \"path\": \"/usr/lib/jvm/java-8-openjdk-amd64/\",",
+			"        \"sources\": \"/usr/lib/jvm/java-8-openjdk-amd64/src.zip\",",
+			"        \"default\": true",
+			"    },",
+			"    {",
+			"        \"name\": \"JavaSE-11\",",
+			"        \"path\": \"/usr/lib/jvm/java-11-openjdk-amd64\",",
+			"        \"sources\": \"/usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip\",",
+			"        \"javadoc\": \"https://docs.oracle.com/en/java/javase/11/docs/api\"",
+			"    }",
+			"],",
+			"\"spring-boot.ls.java.home\": \"/usr/lib/jvm/java-11-openjdk-amd64\",",
+			"\"editor.foldingImportsByDefault\": true"
+		],
+		"description": "Spring Boot user settings"
+	}
+}
