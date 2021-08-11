@@ -2,7 +2,7 @@
   "name": "spring-boot-snippets",
   "displayName": "Essential Spring Boot Snippets",
   "description": "High quality Code Snippets that boost your Spring Boot development productivity.",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "publisher": "doggy8088",
   "icon": "icon.png",
   "preview": true,
@@ -30,6 +30,7 @@
     "vscjava.vscode-spring-initializr",
     "vscjava.vscode-spring-boot-dashboard",
 
+    "dgileadi.java-decompiler",
     "GabrielBB.vscode-lombok"
   ],
   "contributes": {
