@@ -2,7 +2,7 @@
   "name": "spring-boot-snippets",
   "displayName": "Essential Spring Boot Snippets",
   "description": "High quality Code Snippets that boost your Spring Boot development productivity.",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "publisher": "doggy8088",
   "icon": "icon.png",
   "preview": true,
@@ -11,6 +11,10 @@
     "vscode": "^1.50.0"
   },
   "license": "MIT",
+  "galleryBanner": {
+    "color": "#DAD0C2",
+    "theme": "light"
+  },
   "keywords": [
     "spring-boot",
     "java",
