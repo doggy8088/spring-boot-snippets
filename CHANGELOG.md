@@ -2,6 +2,10 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.5.0 - 2021-08-13
+
+* Add [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension
+
 ## 0.4.3 - 2021-08-12
 
 * Add JSON/JSONC snippets for VSCode User Settings (`java` or `spring-boot`)

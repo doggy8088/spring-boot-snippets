@@ -49,12 +49,35 @@ This extension bundled with some MUST needed VSCode extensions for Java Spring B
   - [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
   - [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
   - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
 - [Java Decompiler](https://marketplace.visualstudio.com/items?itemName=dgileadi.java-decompiler)
+
+    This extension allows you to decompile Java class files.
+
 - [Spring Initializr Java Support](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr)
+
+    Quickly generate a Spring Boot project in Visual Studio Code (VS Code). It helps you to customize your projects with configurations and manage Spring Boot dependencies.
+
 - [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard)
+
+    With an explorer in the side bar, you can view and manage all available Spring Boot projects in your workspace. It also supports the features to quickly start, stop or debug a Spring Boot project.
+
 - [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=pivotal.vscode-spring-boot)
+
+    Provides validation and content assist for Spring Boot `application.properties`, `application.yml` properties files. As well as Boot-specific support for `.java` files.
+
 - [Lombok Annotations Support for VS Code](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
+
+    A lightweight extension to support [Lombok](https://projectlombok.org/) annotations processing in Visual Studio Code
+
 - [Dependency Analytics](https://marketplace.visualstudio.com/items?itemName=redhat.fabric8-analytics)
+
+    Dependency Analytics is powered by [Snyk Intel Vulnerability DB](https://snyk.io/product/vulnerability-database/), it is the most advanced and accurate open source vulnerability database in the industry. That adds value with the latest, fastest and more number of vulnerabilities derived from numerous sources.
+
+- [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+
+    Viewing `target/site` or [JaCoCo](https://www.jacoco.org/) report can use this extension very easily.
+
 - [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
@@ -123,7 +146,6 @@ I also recommend the following extensions you MIGHT need.
   - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
       Supercharge the Git capabilities built into Visual Studio Code
-
 
 ## Recommended VSCode User Settings
 
