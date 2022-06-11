@@ -43,7 +43,7 @@ This extension is still in progress.  [Let me know](https://github.com/doggy8088
 This extension bundled with some MUST needed VSCode extensions for Java Spring Boot developments.
 
 - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-  - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+  - [Language Support for Java™ by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
   - [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
   - [Java Test Runner](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
   - [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
@@ -79,11 +79,12 @@ This extension bundled with some MUST needed VSCode extensions for Java Spring B
     Viewing `target/site` or [JaCoCo](https://www.jacoco.org/) report can use this extension very easily.
 
 - [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 I also recommend the following extensions you MIGHT need.
 
-- Code Quality
+- Linting
 
   - [Checkstyle for Java](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle)
 
@@ -99,6 +100,10 @@ I also recommend the following extensions you MIGHT need.
 
       Debug or run your java war package in Apache Tomcat.
 
+  - [Jetty for Java](https://marketplace.visualstudio.com/items?itemName=SummerSun.vscode-jetty)
+
+      Start and run or debug your war package on Jetty.
+
   - [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)
 
       Add Gradle language support for Visual Studio Code
@@ -106,6 +111,10 @@ I also recommend the following extensions you MIGHT need.
   - [Gradle Tasks](https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle)
 
       Run Gradle tasks in VS Code
+
+  - [Quarkus](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus)
+
+      [Quarkus](https://quarkus.io/) Tools for Visual Studio Code
 
 - Workbench
 
@@ -133,19 +142,15 @@ I also recommend the following extensions you MIGHT need.
 
       Makes it easy to create, manage, and debug containerized applications.
 
+  - [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+
+      Develop, deploy and debug Kubernetes applications.
+
 - Git Version Control
 
-  - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  - [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)
 
-      View a Git Graph of your repository, and perform Git actions from the graph.
-
-  - [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
-
-      Language support for `.gitignore` files.
-
-  - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
-      Supercharge the Git capabilities built into Visual Studio Code
+      Popular Visual Studio Code extensions for Git version control including [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) and [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph).
 
 ## Recommended VSCode User Settings
 
