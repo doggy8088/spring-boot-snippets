@@ -2,6 +2,12 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.6.0 - 2022-07-30
+
+* Fine-tune all snippets and add more useful Java snippets
+* Add [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extension
+* Add [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension
+
 ## 0.5.1 - 2022-06-11
 
 * Update `README.md`

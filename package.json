@@ -1,62 +1,59 @@
 {
-  "name": "spring-boot-snippets",
-  "displayName": "Essential Java Spring Boot Snippets",
-  "description": "High quality Code Snippets that boost your Java Spring Boot development productivity.",
-  "version": "0.5.1",
-  "publisher": "doggy8088",
-  "icon": "icon.png",
-  "preview": true,
-  "repository": "https://github.com/doggy8088/spring-boot-snippets",
-  "engines": {
-    "vscode": "^1.64.0"
-  },
-  "license": "MIT",
-  "galleryBanner": {
-    "color": "#DAD0C2",
-    "theme": "light"
-  },
-  "keywords": [
-    "spring-boot",
-    "java",
-    "code-snippets"
-  ],
-  "categories": [
-    "Extension Packs",
-    "Snippets"
-  ],
-  "extensionPack": [
-    "vscjava.vscode-java-pack",
-    "redhat.fabric8-analytics",
-    "redhat.vscode-xml",
-    "redhat.vscode-yaml",
-
-    "pivotal.vscode-spring-boot",
-    "vscjava.vscode-spring-initializr",
-    "vscjava.vscode-spring-boot-dashboard",
-
-    "ms-vscode.live-server",
-
-    "dgileadi.java-decompiler",
-    "GabrielBB.vscode-lombok"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "java",
-        "path": "./snippets/java.json"
-      },
-      {
-        "language": "editorconfig",
-        "path": "./snippets/editorconfig.json"
-      },
-      {
-        "language": "json",
-        "path": "./snippets/json.json"
-      },
-      {
-        "language": "jsonc",
-        "path": "./snippets/json.json"
-      }
-    ]
-  }
+    "name": "spring-boot-snippets",
+    "displayName": "Essential Java Spring Boot Snippets",
+    "description": "High quality Code Snippets that boost your Java Spring Boot development productivity.",
+    "version": "0.6.0",
+    "publisher": "doggy8088",
+    "icon": "icon.png",
+    "preview": true,
+    "repository": "https://github.com/doggy8088/spring-boot-snippets",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "license": "MIT",
+    "galleryBanner": {
+        "color": "#DAD0C2",
+        "theme": "light"
+    },
+    "keywords": [
+        "java",
+        "spring-boot",
+        "code-snippets"
+    ],
+    "categories": [
+        "Extension Packs",
+        "Snippets"
+    ],
+    "extensionPack": [
+        "EditorConfig.EditorConfig",
+        "vscjava.vscode-java-pack",
+        "redhat.fabric8-analytics",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "Pivotal.vscode-boot-dev-pack",
+        "ms-vscode.live-server",
+        "humao.rest-client",
+        "dgileadi.java-decompiler",
+        "GabrielBB.vscode-lombok"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "java",
+                "path": "./snippets/java.json"
+            },
+            {
+                "language": "editorconfig",
+                "path": "./snippets/editorconfig.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/json.json"
+            },
+            {
+                "language": "jsonc",
+                "path": "./snippets/json.json"
+            }
+        ]
+    }
 }
