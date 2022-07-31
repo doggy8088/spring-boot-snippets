@@ -2,6 +2,11 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.6.1 - 2022-07-31
+
+* Bug fixed
+  * The [Lombok Annotations Support for VS Code](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-lombok) extension not installed automatically because the `id` of this extension on VSCode marketplace has been changed a while ago.
+
 ## 0.6.0 - 2022-07-30
 
 * Fine-tune all snippets and add more useful Java snippets

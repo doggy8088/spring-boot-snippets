@@ -93,7 +93,7 @@ This extension bundled with some MUST needed VSCode extensions for Java Spring B
 
     This extension allows you to decompile Java class files.
 
-- [Lombok Annotations Support for VS Code](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
+- [Lombok Annotations Support for VS Code](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-lombok)
 
     A lightweight extension to support [Lombok](https://projectlombok.org/) annotations processing in Visual Studio Code
 
