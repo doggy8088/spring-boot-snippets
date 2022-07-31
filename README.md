@@ -183,16 +183,6 @@ I also recommend the following extensions you MIGHT need.
 
       Material Design Icons for Visual Studio Code
 
-- Containerization
-
-  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-
-      Makes it easy to create, manage, and debug containerized applications.
-
-  - [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
-
-      Develop, deploy and debug Kubernetes applications.
-
 - Git Version Control
 
   - [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)

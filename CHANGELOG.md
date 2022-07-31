@@ -2,6 +2,10 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.6.2 - 2022-08-01
+
+* Update `README.md`
+
 ## 0.6.1 - 2022-07-31
 
 * Bug fixed
