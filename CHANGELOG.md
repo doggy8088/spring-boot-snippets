@@ -2,6 +2,12 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.7.0 - 2022-09-13
+
+* Add new snippets
+  * Apache Maven POM File (`.xml`)
+* Update README.md
+
 ## 0.6.2 - 2022-08-01
 
 * Update `README.md`

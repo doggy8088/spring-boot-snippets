@@ -1,0 +1,62 @@
+{
+    "POM Basic Structure": {
+        "prefix": "pom-basic",
+        "body": [
+            "<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"",
+            "    xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\">",
+            "    <modelVersion>4.0.0</modelVersion>",
+            "",
+            "    <groupId>${1:com.duotify}</groupId>",
+            "    <artifactId>${2:artifact-name}</artifactId>",
+            "    <version>${3:1.0-SNAPSHOT}</version>",
+            "",
+            "    $0",
+            "",
+            "</project>"
+        ],
+        "description": "Apache Maven POM Basic Structure"
+    },
+    "POM Aggregator Structure": {
+        "prefix": "pom-aggregator",
+        "body": [
+            "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>",
+            "<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd\">",
+            "    <modelVersion>4.0.0</modelVersion>",
+            "",
+            "    <groupId>${1:com.duotify}</groupId>",
+            "    <artifactId>${2:parent-project}</artifactId>",
+            "    <packaging>pom</packaging>",
+            "    <version>${3:1.0-SNAPSHOT}</version>",
+            "    <name>${2}</name>",
+            "    <url>${4:https://maven.apache.org}</url>",
+            "",
+            "    <dependencyManagement>",
+            "        <dependencies>",
+            "            <dependency>",
+            "                <groupId>${5:org.springframework}</groupId>",
+            "                <artifactId>${6:spring-core}</artifactId>",
+            "                <version>${7:5.3.22}</version>",
+            "            </dependency>",
+            "        </dependencies>",
+            "    </dependencyManagement>",
+            "",
+            "    <modules>",
+            "        <module>${8:core}</module>",
+            "    </modules>",
+            "",
+            "</project>"
+        ],
+        "description": "POM Aggregator Structure"
+    },
+    "POM parent snippet": {
+        "prefix": "pom-parent-snippet",
+        "body": [
+            "<parent>",
+            "    <artifactId>${1:parent-project}</artifactId>",
+            "    <groupId>${2:com.duotify}</groupId>",
+            "    <version>${3:1.0-SNAPSHOT}</version>",
+            "</parent>"
+        ],
+        "description": "POM parent snippet"
+    }
+}

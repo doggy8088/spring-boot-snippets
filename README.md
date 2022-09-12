@@ -51,6 +51,14 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 | ------ | ------------------------------------------------ |
 | `java` | Generates VSCode User Settings for Java projects |
 
+### Apache Maven POM File (`.xml`)
+
+| Prefix               | Description                        |
+| -------------------- | ---------------------------------- |
+| `pom-basic`          | Generates POM Basic Structure      |
+| `pom-aggregator`     | Generates POM Aggregator Structure |
+| `pom-parent-snippet` | Generates POM `<parent>` snippet   |
+
 ## Extensions
 
 This extension bundled with some MUST needed VSCode extensions for Java Spring Boot developments.
@@ -135,15 +143,11 @@ I also recommend the following extensions you MIGHT need.
 
       SonarLint helps you detect and fix quality issues as you write code in Java.
 
-- Tomcat and Jetty
+- Server Connectors
 
-  - [Tomcat for Java](https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat)
+  - [Community Server Connectors](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-community-server-connector)
 
-      Debug or run your java war package in Apache Tomcat.
-
-  - [Jetty for Java](https://marketplace.visualstudio.com/items?itemName=SummerSun.vscode-jetty)
-
-      Start and run or debug your war package on Jetty.
+      Connects vscode with open source community-driven servers and runtimes. Supported servers includes [Apache Tomcat](https://tomcat.apache.org/) [ 5.5 | 6.0 | 7.0 | 8.0 | 8.5 | 9.0 ], [Apache Karaf](https://karaf.apache.org/) [ 4.8 ], [Apache Felix](https://felix.apache.org/) [ 3.2 | 4.6 | 5.6 | 6.0 ], [Jetty](https://www.eclipse.org/jetty/) [ 9.x ], [Glassfish](https://glassfish.org/) [ 5.x ], [Websphere Liberty](https://www.ibm.com/cloud/websphere-liberty) [ 21.x ]
 
 - Java Tools
 
