@@ -53,11 +53,13 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 
 ### Apache Maven POM File (`.xml`)
 
-| Prefix               | Description                        |
-| -------------------- | ---------------------------------- |
-| `pom-basic`          | Generates POM Basic Structure      |
-| `pom-aggregator`     | Generates POM Aggregator Structure |
-| `pom-parent-snippet` | Generates POM `<parent>` snippet   |
+| Prefix               | Description                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------- |
+| `pom-basic`          | Generates POM Basic Structure                                                               |
+| `pom-aggregator`     | Generates POM Aggregator Structure                                                          |
+| `pom-parent-snippet` | Generates POM `<parent>` snippet                                                            |
+| `jboss-web`          | Generates WildFly/JBoss Web Deployment Descriptor (`src/main/webapp/WEB-INF/jboss-web.xml`) |
+| `wildfly-web`        | Generates WildFly/JBoss Web Deployment Descriptor (`src/main/webapp/WEB-INF/jboss-web.xml`) |
 
 ## Extensions
 

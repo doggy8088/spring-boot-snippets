@@ -2,6 +2,11 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.7.1 - 2022-09-14
+
+* Add new snippets
+  * The `jboss-web` and `wildfly-web` generates WildFly/JBoss Web Deployment Descriptor (`src/main/webapp/WEB-INF/jboss-web.xml`)
+
 ## 0.7.0 - 2022-09-13
 
 * Add new snippets
