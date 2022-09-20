@@ -58,6 +58,8 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 | `pom-basic`          | Generates POM Basic Structure                                                               |
 | `pom-aggregator`     | Generates POM Aggregator Structure                                                          |
 | `pom-parent-snippet` | Generates POM `<parent>` snippet                                                            |
+| `pom-profiles`       | Generates POM `<profiles>` snippet                                                          |
+| `pom-profile`        | Generates POM `<profile>` snippet                                                           |
 | `jboss-web`          | Generates WildFly/JBoss Web Deployment Descriptor (`src/main/webapp/WEB-INF/jboss-web.xml`) |
 | `wildfly-web`        | Generates WildFly/JBoss Web Deployment Descriptor (`src/main/webapp/WEB-INF/jboss-web.xml`) |
 

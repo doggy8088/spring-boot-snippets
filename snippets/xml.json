@@ -1,5 +1,5 @@
 {
-    "POM Basic Structure": {
+    "Apache Maven POM Basic": {
         "prefix": "pom-basic",
         "body": [
             "<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"",
@@ -14,9 +14,9 @@
             "",
             "</project>"
         ],
-        "description": "Apache Maven POM Basic Structure"
+        "description": "Apache Maven POM Basic"
     },
-    "POM Aggregator Structure": {
+    "Apache Maven POM Aggregator": {
         "prefix": "pom-aggregator",
         "body": [
             "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>",
@@ -46,9 +46,9 @@
             "",
             "</project>"
         ],
-        "description": "POM Aggregator Structure"
+        "description": "Apache Maven POM Aggregator"
     },
-    "POM parent snippet": {
+    "Apache Maven POM parent snippet": {
         "prefix": "pom-parent-snippet",
         "body": [
             "<parent>",
@@ -57,10 +57,51 @@
             "    <version>${3:1.0-SNAPSHOT}</version>",
             "</parent>"
         ],
-        "description": "POM parent snippet"
+        "description": "Apache Maven POM <parent> snippet"
+    },
+    "Apache Maven POM profiles snippet": {
+        "prefix": "pom-profiles",
+        "body": [
+            "<profiles>",
+            "  <profile>",
+            "    <id>default</id>",
+            "    <activation>",
+            "      <activeByDefault>true</activeByDefault>",
+            "    </activation>",
+            "    <dependencies>",
+            "    </dependencies>",
+            "    <properties>",
+            "      <spring.profiles.active>default</spring.profiles.active>",
+            "    </properties>",
+            "  </profile>",
+            "  <profile>",
+            "    <id>${1:dev}</id>",
+            "    <dependencies>",
+            "    </dependencies>",
+            "    <properties>",
+            "      <spring.profiles.active>${1}</spring.profiles.active>",
+            "    </properties>",
+            "  </profile>$0",
+            "</profiles>"
+        ],
+        "description": "Apache Maven POM <profiles> snippet"
+    },
+    "Apache Maven POM profile snippet": {
+        "prefix": "pom-profile",
+        "body": [
+            "<profile>",
+            "  <id>${1:dev}</id>",
+            "  <dependencies>",
+            "  </dependencies>",
+            "  <properties>",
+            "    <spring.profiles.active>${1}</spring.profiles.active>$0",
+            "  </properties>",
+            "</profile>"
+        ],
+        "description": "Apache Maven POM <profile> snippet"
     },
     "WildFly/JBoss Web Deployment Descriptor": {
-        "prefix": ["jboss-web","wildfly-web"],
+        "prefix": ["jboss-web", "wildfly-web"],
         "body": [
             "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
             "<jboss-web xmlns=\"http://www.jboss.com/xml/ns/javaee\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-web_5_1.xsd\">",

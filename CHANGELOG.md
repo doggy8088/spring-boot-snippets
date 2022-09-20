@@ -2,6 +2,12 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.7.2 - 2022-09-20
+
+* Add new snippets
+  * The `pom-profiles` generates POM `<profiles>` snippet
+  * The `pom-profile` generates POM `<profile>` snippet
+
 ## 0.7.1 - 2022-09-14
 
 * Add new snippets
