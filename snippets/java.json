@@ -22,7 +22,6 @@
             "    @Basic",
             "    @Column(name = \"Credits\", nullable = false)",
             "    private int credits;",
-            "",
             "}",
             ""
         ],

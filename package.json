@@ -2,7 +2,7 @@
     "name": "spring-boot-snippets",
     "displayName": "Essential Java Spring Boot Snippets",
     "description": "High quality Code Snippets that boost your Java Spring Boot development productivity.",
-    "version": "0.8.2",
+    "version": "0.8.3",
     "publisher": "doggy8088",
     "icon": "icon.png",
     "preview": true,
@@ -38,6 +38,14 @@
     ],
     "contributes": {
         "snippets": [
+            {
+                "language": "spring-boot-properties-yaml",
+                "path": "./snippets/spring-boot-properties-yaml.json"
+            },
+            {
+                "language": "spring-boot-properties",
+                "path": "./snippets/spring-boot-properties.json"
+            },
             {
                 "language": "java",
                 "path": "./snippets/java.json"
