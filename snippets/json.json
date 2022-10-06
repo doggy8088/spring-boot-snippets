@@ -1,13 +1,24 @@
 {
-	"VSCode user settings for Java": {
-		"prefix": [
-			"java"
-		],
-		"body": [
-			"\"java.debug.settings.hotCodeReplace\": \"auto\",",
-			"\"java.saveActions.organizeImports\": true,",
-			"\"editor.foldingImportsByDefault\": true"
-		],
-		"description": "VSCode user settings for Java"
-	}
+    "VSCode user settings for REST Client": {
+        "prefix": "rest-client",
+        "body": [
+            "\"rest-client.defaultHeaders\": {",
+            "  \"User-Agent\": \"vscode-restclient\"",
+            "},",
+            "\"rest-client.followredirect\": false,",
+            "\"rest-client.enableTelemetry\": false,",
+            "\"rest-client.previewResponsePanelTakeFocus\": false,",
+            ""
+        ],
+        "description": "VSCode user settings for REST Client"
+    },
+    "VSCode user settings for Java": {
+        "prefix": ["java"],
+        "body": [
+            "\"java.debug.settings.hotCodeReplace\": \"auto\",",
+            "\"java.saveActions.organizeImports\": true,",
+            "\"editor.foldingImportsByDefault\": true"
+        ],
+        "description": "VSCode user settings for Java"
+    }
 }

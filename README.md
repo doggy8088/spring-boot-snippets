@@ -6,13 +6,13 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 
 ## Features
 
-- Provide `Java`, `Controller`, `EditorConfig` and `VSCode User Settings` snippets
+- Provide `Java`, `Controller`, `EditorConfig`, `JPA` and `VSCode User Settings` snippets
 - Provide `DTO` snippets with [Lombok](https://projectlombok.org/) & [spring-boot-starter-validation](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation) dependency
 - Bundled with some must needed VSCode extensions
 
 ## Code Snippets
 
-### Spring Boot (`.java`)
+### Spring Boot (`java`)
 
 | Prefix           | Description                                         |
 | ---------------- | --------------------------------------------------- |
@@ -28,7 +28,25 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 
 > The `api-dto` snippet need `lombok` and `spring-boot-starter-validation` dependencies been installed in the project.
 
-### Java (`.java`)
+### Spring Data JPA (`java`)
+
+| Prefix           | Description                         |
+| ---------------- | ----------------------------------- |
+| `jpa-repository` | Generate Spring Data JPA Repository |
+
+### Spring Boot Properties (`spring-boot-properties`)
+
+| Prefix           | Description                      |
+| ---------------- | -------------------------------- |
+| `jpa-datasource` | Setup Spring Data JPA datasource |
+
+### Spring Boot Properties - YAML (`spring-boot-properties-yaml`)
+
+| Prefix           | Description                      |
+| ---------------- | -------------------------------- |
+| `jpa-datasource` | Setup Spring Data JPA datasource |
+
+### Java (`java`)
 
 | Prefix          | Description                   |
 | --------------- | ----------------------------- |
@@ -39,19 +57,20 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 | `st`            | String                        |
 | `thr`           | throw new                     |
 
-### EditorConfig (`.editorconfig`)
+### EditorConfig (`editorconfig`)
 
 | Prefix | Description                                |
 | ------ | ------------------------------------------ |
 | `java` | Generates `.editorconfig` for Java project |
 
-### VSCode User Settings (`.json`)
+### VSCode User Settings (`json`)
 
-| Prefix | Description                                      |
-| ------ | ------------------------------------------------ |
-| `java` | Generates VSCode User Settings for Java projects |
+| Prefix        | Description                                      |
+| ------------- | ------------------------------------------------ |
+| `java`        | Generates VSCode User Settings for Java projects |
+| `rest-client` | Generates VSCode user settings for REST Client   |
 
-### Apache Maven POM File (`.xml`)
+### Apache Maven POM File (`xml`)
 
 | Prefix               | Description                                                                                 |
 | -------------------- | ------------------------------------------------------------------------------------------- |

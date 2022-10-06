@@ -1,4 +1,22 @@
 {
+    "Spring Data JPA Repository": {
+        "prefix": "jpa-repository",
+        "body": [
+            "package ${1:com.example}.${2:demojpa}.${3:domain};",
+            "",
+            "import org.springframework.data.repository.CrudRepository;",
+            "import org.springframework.stereotype.Repository;",
+            "",
+            "import ${1}.${2}.entity.${4:CourseEntity};",
+            "",
+            "@Repository",
+            "public interface ${4}Repository extends CrudRepository<${4}, ${5:Long}> {",
+            "    $0",
+            "}",
+            ""
+        ],
+        "description": "Spring Data JPA Repository"
+    },
     "Generate RestController": {
         "prefix": "api-controller",
         "body": [
@@ -199,44 +217,32 @@
 
     "Print a string to System.out": {
         "prefix": "sout",
-        "body": [
-            "System.out.println($0);"
-        ],
+        "body": ["System.out.println($0);"],
         "description": "Print a string to System.out"
     },
     "Prints a string to System.err": {
         "prefix": "serr",
-        "body": [
-            "System.err.println($0);"
-        ],
+        "body": ["System.err.println($0);"],
         "description": "Prints a string to System.err"
     },
     "Private field": {
         "prefix": "private_field",
-        "body": [
-            "private ${1:String} ${2:name};"
-        ],
+        "body": ["private ${1:String} ${2:name};"],
         "description": "Private field"
     },
     "Public field": {
         "prefix": "public_field",
-        "body": [
-            "public ${1:String} ${2:name};"
-        ],
+        "body": ["public ${1:String} ${2:name};"],
         "description": "Public field"
     },
     "String": {
         "prefix": "st",
-        "body": [
-            "String"
-        ],
+        "body": ["String"],
         "description": "String"
     },
     "throw new": {
         "prefix": "thr",
-        "body": [
-            "throw new "
-        ],
+        "body": ["throw new "],
         "description": "throw new"
     }
 }
