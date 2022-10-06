@@ -1,4 +1,33 @@
 {
+    "Spring Data JPA Entity": {
+        "prefix": "jpa-entity",
+        "body": [
+            "import javax.persistence.*;",
+            "import lombok.Data;",
+            "",
+            "@Data",
+            "@Entity",
+            "@Table(name = \"${1:Course}\", schema = \"${2:dbo}\", catalog = \"${3:ContosoUniversity}\")",
+            "public class ${1}Entity {",
+            "    @Id",
+            "    @Column(name = \"${4:CourseID}\", nullable = false)",
+            "    private int ${5:courseId};",
+            "",
+            "    $0// TODO",
+            "",
+            "    @Basic",
+            "    @Column(name = \"Title\", nullable = true, length = 50)",
+            "    private String title;",
+            "",
+            "    @Basic",
+            "    @Column(name = \"Credits\", nullable = false)",
+            "    private int credits;",
+            "",
+            "}",
+            ""
+        ],
+        "description": "Spring Data JPA Entity"
+    },
     "Spring Data JPA Repository": {
         "prefix": "jpa-repository",
         "body": [

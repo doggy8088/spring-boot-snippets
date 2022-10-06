@@ -30,9 +30,10 @@ This extension is still in progress. [Let me know](https://github.com/doggy8088/
 
 ### Spring Data JPA (`java`)
 
-| Prefix           | Description                         |
-| ---------------- | ----------------------------------- |
-| `jpa-repository` | Generate Spring Data JPA Repository |
+| Prefix           | Description                               |
+| ---------------- | ----------------------------------------- |
+| `jpa-repository` | Generate Spring Data JPA Repository class |
+| `jpa-entity`     | Generate Spring Data JPA Entity class     |
 
 ### Spring Boot Properties (`spring-boot-properties`)
 

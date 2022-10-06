@@ -2,11 +2,12 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
-## 0.8.0 - 2022-10-06
+## 0.8.2 - 2022-10-06
 
 * Add new snippets
   * The `rest-client` generates VSCode user settings for REST Client
   * The `jpa-repository` generates Spring Data JPA Repository class
+  * The `jpa-entity` generates Spring Data JPA Entity class
   * The `jpa-datasource` generates Spring Data JPA datasource properties that support both `.properties` and `.yaml` files.
 
 ## 0.7.2 - 2022-09-20
