@@ -2,7 +2,7 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
-## 0.8.3 - 2022-10-06
+## 0.8.4 - 2022-10-07
 
 * Add new snippets
   * The `rest-client` generates VSCode user settings for REST Client

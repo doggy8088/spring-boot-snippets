@@ -30,15 +30,11 @@
     "Spring Data JPA Repository": {
         "prefix": "jpa-repository",
         "body": [
-            "package ${1:com.example}.${2:demojpa}.${3:domain};",
-            "",
             "import org.springframework.data.repository.CrudRepository;",
             "import org.springframework.stereotype.Repository;",
             "",
-            "import ${1}.${2}.entity.${4:CourseEntity};",
-            "",
             "@Repository",
-            "public interface ${4}Repository extends CrudRepository<${4}, ${5:Long}> {",
+            "public interface ${3:Course}Repository extends CrudRepository<${3}, ${4:Integer}> {",
             "    $0",
             "}",
             ""
