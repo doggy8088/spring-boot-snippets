@@ -2,6 +2,10 @@
 
 All notable changes to the **Essential Spring Boot Snippets** will be documented in this file.
 
+## 0.8.5 - 2024-03-26
+
+* Extension rename to `Essential Spring Boot Snippets`.
+
 ## 0.8.4 - 2022-10-07
 
 * Add new snippets

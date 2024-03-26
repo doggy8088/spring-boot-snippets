@@ -1,8 +1,8 @@
 {
     "name": "spring-boot-snippets",
-    "displayName": "Essential Java Spring Boot Snippets",
-    "description": "High quality Code Snippets that boost your Java Spring Boot development productivity.",
-    "version": "0.8.4",
+    "displayName": "Essential Spring Boot Snippets",
+    "description": "High quality Code Snippets that boost your Spring Boot development productivity.",
+    "version": "0.8.5",
     "publisher": "doggy8088",
     "icon": "icon.png",
     "preview": true,
